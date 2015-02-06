@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calendar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/sub_month_line1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_container1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/month_week" />
+
+    <View
+        android:id="@+id/sub_month_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/month_week" />
+
+    <View
+        android:id="@+id/sub_month_line3"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_container3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/month_week"
+        android:background="@color/black" />
+
+    <View
+        android:id="@+id/sub_month_line4"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_container4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/month_week" />
+
+    <View
+        android:id="@+id/sub_month_line5"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_container5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/month_week" />
+
+    <View
+        android:id="@+id/sub_month_line6"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_container6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/month_week" />
+
+    <View
+        android:id="@+id/sub_month_line7"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" />
+
+</LinearLayout>

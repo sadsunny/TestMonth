@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="7" >
+
+    <View
+        android:id="@+id/month_line1"
+        android:layout_width="1px"
+        android:layout_height="57dp"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_layout1"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        layout="@layout/day_layout" />
+
+    <View
+        android:id="@+id/month_line2"
+        android:layout_width="1px"
+        android:layout_height="57dp"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_layout2"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        layout="@layout/day_layout" />
+
+    <View
+        android:id="@+id/month_line3"
+        android:layout_width="1px"
+        android:layout_height="57dp"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_layout3"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        layout="@layout/day_layout" />
+
+    <View
+        android:id="@+id/month_line4"
+        android:layout_width="1px"
+        android:layout_height="57dp"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_layout4"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        layout="@layout/day_layout" />
+
+    <View
+        android:id="@+id/month_line5"
+        android:layout_width="1px"
+        android:layout_height="57dp"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_layout5"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        layout="@layout/day_layout" />
+
+    <View
+        android:id="@+id/month_line6"
+        android:layout_width="1px"
+        android:layout_height="57dp"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_layout6"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        layout="@layout/day_layout" />
+
+    <View
+        android:id="@+id/month_line7"
+        android:layout_width="1px"
+        android:layout_height="57dp"
+        android:background="@color/black" />
+
+    <include
+        android:id="@+id/month_layout7"
+        android:layout_width="51dp"
+        android:layout_height="57dp"
+        layout="@layout/day_layout" />
+
+    <View
+        android:id="@+id/month_line8"
+        android:layout_width="1px"
+        android:layout_height="57dp"
+        android:background="@color/black" />
+
+</LinearLayout>
